@@ -1,0 +1,234 @@
+---
+name: Apex Market Terminal
+colors:
+  surface: '#fcf8f9'
+  surface-dim: '#dcd9da'
+  surface-bright: '#fcf8f9'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f6f3f4'
+  surface-container: '#f0edee'
+  surface-container-high: '#ebe7e8'
+  surface-container-highest: '#e5e2e2'
+  on-surface: '#1c1b1c'
+  on-surface-variant: '#46464c'
+  inverse-surface: '#313031'
+  inverse-on-surface: '#f3f0f1'
+  outline: '#76777c'
+  outline-variant: '#c6c6cc'
+  surface-tint: '#5a5e6b'
+  primary: '#000000'
+  on-primary: '#ffffff'
+  primary-container: '#171b26'
+  on-primary-container: '#808392'
+  inverse-primary: '#c3c6d5'
+  secondary: '#0048d8'
+  on-secondary: '#ffffff'
+  secondary-container: '#2761fe'
+  on-secondary-container: '#f4f3ff'
+  tertiary: '#000000'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#25190c'
+  on-tertiary-container: '#93816e'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dfe2f2'
+  primary-fixed-dim: '#c3c6d5'
+  on-primary-fixed: '#171b26'
+  on-primary-fixed-variant: '#434653'
+  secondary-fixed: '#dce1ff'
+  secondary-fixed-dim: '#b6c4ff'
+  on-secondary-fixed: '#001550'
+  on-secondary-fixed-variant: '#003ab3'
+  tertiary-fixed: '#f6dfc9'
+  tertiary-fixed-dim: '#d9c3ae'
+  on-tertiary-fixed: '#25190c'
+  on-tertiary-fixed-variant: '#534434'
+  background: '#fcf8f9'
+  on-background: '#1c1b1c'
+  surface-variant: '#e5e2e2'
+  market-up: '#089981'
+  market-up-surface: '#E6F5F2'
+  market-down: '#F23645'
+  market-down-surface: '#FDEBED'
+  neutral-canvas: '#FFFFFF'
+  neutral-subtle: '#F0F3FA'
+  neutral-border: '#E0E3EB'
+  neutral-muted: '#787B86'
+typography:
+  headline-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 44px
+    fontWeight: '800'
+    lineHeight: 52px
+    letterSpacing: -0.02em
+  headline-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '800'
+    lineHeight: 38px
+    letterSpacing: -0.015em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 32px
+    letterSpacing: -0.015em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '700'
+    lineHeight: 24px
+    letterSpacing: -0.01em
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+  ticker-display:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 18px
+    letterSpacing: 0.02em
+  numeric-data-lg:
+    fontFamily: Inter
+    fontSize: 15px
+    fontWeight: '600'
+    lineHeight: 20px
+  numeric-data-md:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+  numeric-data-sm:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+  body-default:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-muted:
+    fontFamily: Inter
+    fontSize: 13px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-badge:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+  caption-micro:
+    fontFamily: Inter
+    fontSize: 11px
+    fontWeight: '400'
+    lineHeight: 14px
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-dense: 0.5rem
+  margin: 1.5rem
+  margin-mobile: 1rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 0.75rem
+  space-lg: 1rem
+  space-xl: 1.5rem
+---
+
+## Brand & Style
+
+The design system establishes a high-density, real-time financial interface engineered for professional traders, quantitative analysts, and institutional market observers. Its visual language balances technical precision with instantaneous legibility, enabling users to scan high-velocity telemetry across multi-asset classes—including equities, crypto, foreign exchange, sovereign debt, and derivatives.
+
+### Design Movement & Aesthetic
+The visual direction fuses **Corporate / Modern High-Density Utility** with **Minimalist Precision Engineering**:
+- **Information Density as a First Principle:** Compact vertical rhythms, razor-thin tabular rules, and tight micro-typographic units maximize observable data above the fold without inducing cognitive fatigue.
+- **Instrument-Grade Functionalism:** Chrome and framing remain stark and unobtrusive, allowing primary chart canvas geometries, candlestick colors, and tabular price vectors to serve as visual focal points.
+- **Controlled Polar Feedback:** Color is not decorative; it is functional telemetry. High-chroma directional indicators (bullish green vs. bearish crimson) are paired with subtle, low-opacity container fills to broadcast market momentum instantly.
+
+## Colors
+
+The palette employs a stark monochrome backbone accented by a technical cobalt blue and strict bidirectional semantic colors. 
+
+### Color Application Rules
+- **Primary (`#131722`):** Used for primary text, structural interactive headers, active tab labels, and prominent pill states.
+- **Secondary / Action Accent (`#2962FF`):** Reserved for primary interactive accents, focus rings, selected asset tabs, and primary action buttons.
+- **Market Up / Bullish (`#089981`):** Applied exclusively to positive deltas, ascending ticks, buy volumes, and positive sparkline fills. Paired with `market-up-surface` (`#E6F5F2`) for low-contrast badge backgrounds.
+- **Market Down / Bearish (`#F23645`):** Applied exclusively to negative deltas, descending ticks, sell pressure, and downward sparkline fills. Paired with `market-down-surface` (`#FDEBED`) for negative badge backgrounds.
+- **Neutral Boundaries & Surfaces:** `neutral-subtle` (`#F0F3FA`) drives table alternating rows, secondary button fills, and pill backgrounds. `neutral-border` (`#E0E3EB`) provides 1px dividers between financial metrics.
+
+## Typography
+
+Typography in this system separates editorial branding and dashboard navigation from high-frequency metric consumption:
+- **Headings (Plus Jakarta Sans):** Selected for high geometric clarity, deep stroke contrast, and clean presence at medium and large scales (`headline-hero` to `headline-md`).
+- **Body & Tabular Telemetry (Inter):** Applied across all market listings, tables, order books, and ticker tapes.
+- **Tabular Figures & OpenType Settings:** All tokens beginning with `numeric-data-*` and `ticker-display` strictly mandate OpenType tabular numbers (`font-variant-numeric: tabular-nums lining-nums; font-feature-settings: "tnum" 1, "cv01" 1;`). This guarantees strict vertical column alignment across rapidly updating prices, bid/ask spreads, and percentages.
+- **Ticker Hierarchy:** Symbol tags (e.g., `AAPL`, `BTCUSD`) leverage uppercase semi-bold styling with positive letter-spacing (`0.02em`) to differentiate legal ticker symbols from natural-language asset names.
+
+## Layout & Spacing
+
+The layout model utilizes a responsive fluid-grid structure paired with compact micro-spacing to achieve financial workstation density.
+
+### Breakpoints & Grid Rules
+- **Desktop (>= 1280px):** 12-column fluid grid with standard `1rem` gutters and outer canvas `1.5rem` margins. Complex financial tables expand up to 10 columns for multi-variable economic heatmaps.
+- **Tablet (768px - 1279px):** 8-column layout. Tabular listings fold auxiliary columns (e.g., market capitalization or volume), prioritizing Symbol, Last Price, 24h Change, and Sparkline.
+- **Mobile (< 768px):** 4-column layout with `1rem` outer margin (`margin-mobile`). Multi-column tables convert to horizontal scrollable strips or stacked instrument cards with primary price and delta badges pinned to the right edge.
+
+### Component Density Scaling
+Data grids and market tables use an internal cell padding rhythm of `0.375rem` vertical by `0.5rem` horizontal (`space-sm`), keeping row heights constrained to 36px–40px for maximum information visibility per viewport.
+
+## Elevation & Depth
+
+Visual hierarchy is communicated through crisp structural boundaries and tonal surface shifts rather than soft ambient blur or heavy drop shadows.
+
+### Border-Dominant Hierarchy
+- **Canvas Base:** `#FFFFFF` background.
+- **Container Tiers:** Structural cards, tables, and sidebars sit flat on the canvas bounded by crisp 1px borders using `neutral-border` (`#E0E3EB`).
+- **Interactive Floating Panels & Tooltips:** Flyout screener menus, symbol search modal dialogs, and real-time chart tooltips utilize a crisp 1px border (`#E0E3EB`) combined with a razor-thin directional shadow: `0 4px 12px -2px rgba(19, 23, 34, 0.08), 0 2px 4px -1px rgba(19, 23, 34, 0.04)`.
+- **Hover & Interaction States:** Hovered table rows and ticker pills transition their surface background to `neutral-subtle` (`#F0F3FA`) with 0px elevation change, avoiding layout shifting during high-speed cursor interactions.
+
+## Shapes
+
+The interface balances sharp data grids with smooth pill-shaped interactors:
+- **Interactive Badges & Pills (`rounded-full` / Level 3):** Filter tabs (`Indices`, `Crypto`, `Forex`, `Bonds`), time interval selectors (`1D`, `1W`, `1M`, `1Y`, `ALL`), search bars, and gain/loss percentage indicators utilize full pill radii (`1rem` to `9999px`).
+- **Data Containers & Card Wrappers:** High-level dashboard cards and embedded chart containers retain soft, constrained roundedness (8px / `rounded-lg`) to maximize chart pixel area.
+- **Icon / Index Circular Avatars:** Circular 28px–32px avatar badges (e.g., red circular badge for `500` S&P, blue circular badge for `100` Nasdaq) use strict 50% circle geometry.
+
+## Components
+
+### Buttons & Action Bars
+- **Primary CTA:** Solid `#131722` background with `#FFFFFF` text, `0.5rem` vertical by `1rem` horizontal padding, fully rounded (`rounded-full`). On hover, transitions to `#2962FF`.
+- **Ghost & Utility Buttons:** Transparent background with subtle 1px border (`#E0E3EB`), typography set to `label-badge`. Transitions to `neutral-subtle` on hover.
+
+### Market Change Indicators & Badges
+- **Bullish (+Change):** Background set to `market-up-surface` (`#E6F5F2`), text set to `market-up` (`#089981`), font `numeric-data-sm` with `tabular-nums`. Prefixed explicitly with the `+` glyph. Formatted inside a tight pill (`padding: 2px 8px`).
+- **Bearish (-Change):** Background set to `market-down-surface` (`#FDEBED`), text set to `market-down` (`#F23645`), font `numeric-data-sm` with `tabular-nums`. Prefixed explicitly with the `−` glyph. Formatted inside a tight pill (`padding: 2px 8px`).
+
+### Tables & Dense Market Grids
+- **Header Row:** 32px height, uppercase `caption-micro` text in `neutral-muted` (`#787B86`), bottom border 1px solid `#E0E3EB`. Right-aligned for all numeric price and delta metrics; left-aligned for asset identifiers.
+- **Data Row:** 40px height, border-bottom 1px solid `#F0F3FA`. On row hover, entire row changes surface to `#F0F3FA`.
+- **Sparklines:** Inline SVG vectors (width: 84px, height: 24px) embedded directly in tabular cells without axes. Path strokes match the active period's polarity (`market-up` or `market-down`) with a stroke width of 1.5px and optional 10% opacity vertical linear gradient drop.
+
+### Navigation Pill Filter Bar
+- Horizontal scrolling strip of asset segments (`Indices`, `US Stocks`, `World Stocks`, `Crypto`, `Forex`, `Futures`, `Bonds`).
+- Inactive state: `neutral-subtle` fill, `body-muted` text, no border.
+- Active state: `#131722` fill, `#FFFFFF` text, bold weight.
+
+### Global Search & Command Input
+- Height 36px, `neutral-subtle` background fill, `rounded-full` shape.
+- Integrated search icon and keyboard shortcut badge (`Ctrl+K`) right-aligned in `caption-micro` with a light border and neutral background.
+- Focus state reveals a 2px outline in `secondary` (`#2962FF`).
+
+### Heatmap Matrix Cells
+- Fixed aspect ratio grid cells reflecting macro performance indicators.
+- Fill color interpolates across a segmented stepping scale based on delta intensity, maintaining dark text for low saturation and light text for deep bull/bear extremes.

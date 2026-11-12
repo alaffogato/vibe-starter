@@ -1,0 +1,6 @@
+{
+  "name": "Apex Market Terminal",
+  "description": "High-density real-time financial market intelligence terminal modeled after TradingView Markets with interactive multi-asset telemetry, sector heatmaps, technical screeners, and paper trading.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
